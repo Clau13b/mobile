@@ -1,0 +1,175 @@
+@media screen and (min-width: 320px){
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+
+  body{
+    background-image: url("../imagenes/cactus-2191647_640.jpg");
+ 
+  } 
+
+.cabecera{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a386d6e3;
+
+}
+.logo{
+    display: flex;
+    justify-content:flex-end;
+    width: 30%;
+    height:30% ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+ 
+}
+nav ul li {
+   
+    display:inline-flex;
+    padding: 8px;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+
+}
+.cabecera img{
+    align-self:flex-end ;
+    width:50% ;
+    height:auto ;
+    border-radius: 360px;
+    padding: 5px;
+}
+
+
+
+.catalogo{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.685);
+    
+}
+.tarjetas{
+    
+    padding: 15px;
+    flex-wrap: wrap;
+    width: 250px;
+    height: auto;
+    font-size: 12px;
+    color:blueviolet;
+    text-align: center;
+}
+
+ .tarjetas a{
+background-color:rgb(99, 141, 99);
+padding: 3px;
+border-radius: 12px;  
+color: white;
+
+ } 
+
+.tarjetas img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+    border: solid 15px white;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(99, 141, 99);
+    bottom: 0;
+    font-size: 15px;
+    color: rgb(128, 7, 97);
+
+}
+.menu_pie a{
+    display: flex;
+    justify-content:center ;
+    flex-direction:row;
+    height: auto;
+    font-size: 15px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 6px;
+
+}
+
+
+
+}
+@media screen and (min-width: 375px){
+    .tarjetas{
+        
+        width: 400px;
+        height: auto;
+        font-size: 12px;
+       
+    
+    }
+    
+
+
+}
+@media screen and (min-width: 768px){
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        
+    
+    }
+
+
+
+.tarjetas{
+        
+    width: 800vh;
+    height: 800vh;
+    font-size: 22px;
+   
+
+}
+.cabecera img{
+    
+    width:90% ;
+    
+
+}
+.logo{
+    
+    left: 300px;
+    justify-content:flex-end;
+    }
+.tarjetas a{
+        
+        padding: 3px;
+        border-radius: 12px;  
+        color: white;
+        
+         } 
+        
+
+
+}
