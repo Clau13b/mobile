@@ -1,6 +1,4 @@
 @media screen and (min-width: 320px){
-    
-
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 *{
@@ -12,164 +10,199 @@
     list-style: none;
 }
 
-  body{
+body{
     background-image: url("../imagenes/cactus-2191647_640.jpg");
  
   } 
 
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #adb5a0;
+    padding:10px;
+    font-size: 1.2rem;
+}
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+  
+}
+
+header a{
+    color: white;
+   }
+   
 .cabecera{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #a386d6e3;
-
-}
-.logo{
-    display: flex;
-    justify-content:flex-end;
-    width: 30%;
-    height:30% ;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    background-color: white;
- 
-}
-nav ul li {
-   
-    display:inline-flex;
-    padding: 8px;
-    
+    background-color:#b785b8;
 }
 
 h1{
-    text-align: center;
-    font-size: 24px;
+    font-size: 2em;
     color: white;
-
 }
+
+.logo{
+    width: 20%;
+    height:20% ;
+
+}  
 .cabecera img{
     align-self:flex-end ;
-    width:50% ;
+    width:100% ;
     height:auto ;
-    border-radius: 360px;
-    padding: 5px;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 50%;
 }
 
-
-
-.catalogo{
+.tarjetas{
     display: flex;
-    width: 100%;
-    height: auto;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.685);
-    
+    width: 100%;
+    height: 500hv
 }
-.tarjetas{
-    
-    padding: 15px;
-    flex-wrap: wrap;
-    width: 250px;
-    height: auto;
-    font-size: 12px;
-    color:blueviolet;
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    font-size: 0.9rem;
     text-align: center;
+ 
+    
 }
+h2{
+    color:#846a93;
+    margin-top: 20px;
+ }
 
- .tarjetas a{
-background-color:rgb(99, 141, 99);
-padding: 3px;
-border-radius: 12px;  
-color: white;
-
+.card img{
+    width: 100%;
+    height: auto;
+    border: solid 15px white;
+    border-radius: 30px;
+   
+}
+.card a{
+    
+    background-color:rgb(99, 141, 99);
+    padding: 0px 5px 0px 5px;
+    border-radius:12px 12px 1px 10px ; 
+    color: white;
+    margin-top: 5% ;
  } 
 
-.tarjetas img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 3px;
-    border: solid 15px white;
-}
-
 footer{
+    margin-top: 15px; 
+}   
+.menu_pie{
     width: 100%;
-    background-color:rgb(99, 141, 99);
-    bottom: 0;
-    font-size: 15px;
-    color: rgb(128, 7, 97);
+    background-color:#adb5a0;
+   }
+.menu_pie ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.menu_pie li{
+    display: inline-flex; 
+    width: 20%;
+    height: auto; 
 
 }
 .menu_pie a{
-    display: flex;
-    justify-content:center ;
-    flex-direction:row;
+    
     height: auto;
     font-size: 15px;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    color:#bd57be;
     padding: 6px;
-
 }
 
-
-
-}
-@media screen and (min-width: 375px){
-    .tarjetas{
-        
-        width: 400px;
-        height: auto;
-        font-size: 12px;
-       
+.ubicacion{
     
+    width: 30%;
+    height: auto;
+}
+
+.fa-location-dot{
+
+ font-size: 30px;
+
+}
+.fa-square-facebook{
+    font-size: 20px;
+    
+}
+.fa-instagram{
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 375px) {
+
+
+.card{
+    width: 400px;
+    height: 400px;
+    font-size:1rem;
     }
-    
-
+h2{
+    margin-top: 40px;
+    }
+footer{
+         margin-top: 5px;;
+    }
 
 }
+
 @media screen and (min-width: 768px){
-
-    h1{
-        text-align: center;
-        font-size: 40px;
-        
     
+h1{
+    font-size: 4rem;
+}
+
+    .tarjetas{
+        display: flex;
+        flex-direction: row;
     }
-
-
-
-.tarjetas{
-        
-    width: 800vh;
-    height: 800vh;
-    font-size: 22px;
-   
-
-}
-.cabecera img{
     
-    width:90% ;
-    
+    .card{
+        width: 400px;
+        height: 400px;
+        font-size: 1.5rem;
 
-}
-.logo{
-    
-    left: 300px;
-    justify-content:flex-end;
+    } 
+    h2{
+        font-size: 1em;
+    }   
+    .card img{
+        width: 70%;
+        height: auto;
+        margin-bottom: 10px;
     }
-.tarjetas a{
-        
-        padding: 3px;
-        border-radius: 12px;  
-        color: white;
-        
-         } 
-        
-
+    
+    #hamburguesa  {
+        display: none; 
+}
 
 }
+    a:hover{color: #bd57be;
+            
+}
+
+
+
